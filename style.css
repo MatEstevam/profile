@@ -24,12 +24,6 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 
-#header img {
-  width: 92px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
 h1 {
   color: #575F7D;
   font-size: 32px;
@@ -41,6 +35,13 @@ p{
   font-size: 20px;
   font-family: 'Lora', serif;
   margin-bottom: 40px;
+}
+
+#header img {
+  width: 92px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 #header_link {
@@ -111,7 +112,6 @@ a{
   font-size: 50px;
   color: rgb(0, 0, 0);
 }
-
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
