@@ -20,12 +20,12 @@ body{
     width: 33%;
   }
 
-h1, h2, h3 {
+h1, h2 {
+  color: #575F7D;
   font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  color: #575F7D;
   font-size: 32px;
   font-weight: 700;
 }
@@ -68,7 +68,6 @@ p{
 }
 
 h2{
-  color: #7ECE90;
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
@@ -108,9 +107,19 @@ a{
   background-color: rgb(255, 255, 255);
 }
 
-.list-inline i:hover{
-  font-size: 50px;
-  color: rgb(0, 0, 0);
+.github:hover,
+.github:hover i {
+    color: rgb(0, 0, 0); /* Verde para o GitHub */
+}
+
+.instagram:hover,
+.instagram:hover i {
+    color: #ed3758; /* Laranja para o Instagram */
+}
+
+.linkedin:hover,
+.linkedin:hover i {
+    color: rgb(0, 119, 181); /* Azul para o LinkedIn */
 }
 
 @media (max-width: 960px) {
